@@ -50,7 +50,7 @@ unset($_SESSION['user']);
   <footer class="container main_footer main_falha">
     <div class="content">
       <h1>FALHAS: <span style="color: #fff;">SQL Injection no Login e XSS persistent nos comentários</span></h1>
-      <p style="text-align: right;"><b>Autores: </b><b style="color: #e74c3c;">Filipe A. Sampaio</b><br><b style="color: #e74c3c;">João Lucas Mota</b><br><b style="color: #e74c3c;">Rodrigo Elyel Batista</b></p>
+      <p style="text-align: right;"><b>Autores: </b><b style="color: #e74c3c;">Filipe A. Sampaio</b><br><b style="color: #e74c3c;">João Lucas Silva Mota</b><br><b style="color: #e74c3c;">Rodrigo Elyel Batista</b></p>
       <div class="clear"></div>
     </div>
   </footer>
