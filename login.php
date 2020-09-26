@@ -1,7 +1,7 @@
 <?php
 session_start(); // Inicia a sessão
 
-$db = new mysqli("localhost", "filipe", "12345678", "LAB");
+$db = new mysqli("remotemysql.com", "kJ4MSjHlRu", "hATDyIS0nz", "kJ4MSjHlRu");
 
 //   FALHA DO SQL Injection
 // $L = $_POST['login'];
