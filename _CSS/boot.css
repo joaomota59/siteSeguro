@@ -1,0 +1,31 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	line-height: 1.2;
+	letter-spacing: 0em;
+	vertical-align: middle;
+
+	font-size: 1em;
+	font-family: 'GothamHTF-Book';
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+p{margin-bottom: 15px;}
+p:last-child {margin-bottom: 0;}
+
+
+/*  ESTRUTURA */
+.container {width: 100%;float: left;}
+.content {width: 90%; margin: 0 5%; padding: 20px 0;}
+.content-page{padding: 10px !important;}
+
+/* HELPERS */
+.clear{clear: both;}
+
+/* ALINHAMENTO */
+.al-center{text-align: center;}
