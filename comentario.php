@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli("localhost", "filipe", "12345678", "LAB");
+$mysqli = new mysqli("remotemysql.com", "kJ4MSjHlRu", "hATDyIS0nz", "kJ4MSjHlRu");
 
 /* checando conexão */
 if (mysqli_connect_errno()) {
