@@ -15,10 +15,10 @@ unset($_SESSION['IPATACK']);
   <link rel="stylesheet" href="_CSS/boot.css">
   <link rel="stylesheet" href="_CSS/estilo.css">
   <?php
-  define('DB_SERVER', 'localhost');
-  define('DB_USERNAME', 'filipe');
-  define('DB_PASSWORD', '12345678');
-  define('DB_DATABASE', 'LAB');
+  define('DB_SERVER', 'remotemysql.com');
+  define('DB_USERNAME', 'kJ4MSjHlRu');
+  define('DB_PASSWORD', 'hATDyIS0nz');
+  define('DB_DATABASE', 'kJ4MSjHlRu');
   $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
   $ID = htmlspecialchars($db->real_escape_string($_GET['id']));
   $sql = "SELECT * FROM usuario WHERE ID = $ID"; // '1' or '1' = '1'
