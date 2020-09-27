@@ -12,8 +12,8 @@ $L = htmlspecialchars($db->real_escape_string($_POST['login']));
 $S = htmlspecialchars($db->real_escape_string($_POST['senha']));
 
 if (empty($L) || empty($S)) {
-  $mysqli->close();
-  header("Location: sobreusuario.php?id=" . $id);
+  $db->close();
+  header("Location: index.php");
 }
 
 $sql = "SELECT * FROM usuario WHERE login = '$L' AND senha = '$S'"; //1' or '1' = '1
