@@ -52,7 +52,7 @@ unset($_SESSION['IPATACK']);
         <h2>Escrever comentário:</h2>
         <input type="hidden" name="id" value="<?= $row['ID']; ?>">
         <label for="texto">Texto</label>
-        <input type="text" name="texto" id="texto" placeholder="Digite seu comentário">
+        <input required type="text" name="texto" id="texto" placeholder="Digite seu comentário">
         <input type="submit" value="Enviar">
       </form>
     </div>

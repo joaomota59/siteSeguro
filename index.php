@@ -30,12 +30,12 @@ unset($_SESSION['user']);
       <form action="login.php" method="post">
         <label>USUARIO
           <div>
-            <input type="text" name="login" value="">
+            <input required type="text" name="login" value="">
           </div>
         </label>
         <label>SENHA
           <div>
-            <input type="password" name="senha" value="">
+            <input required type="password" name="senha" value="">
           </div>
         </label>
         <div style="text-align:center;">

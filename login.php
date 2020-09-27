@@ -11,6 +11,11 @@ $db = new mysqli("remotemysql.com", "kJ4MSjHlRu", "hATDyIS0nz", "kJ4MSjHlRu");
 $L = htmlspecialchars($db->real_escape_string($_POST['login']));
 $S = htmlspecialchars($db->real_escape_string($_POST['senha']));
 
+if (empty($L) || empty($S)) {
+  $mysqli->close();
+  header("Location: sobreusuario.php?id=" . $id);
+}
+
 $sql = "SELECT * FROM usuario WHERE login = '$L' AND senha = '$S'"; //1' or '1' = '1
 $result = mysqli_query($db, $sql);
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
